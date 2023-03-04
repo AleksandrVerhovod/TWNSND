@@ -58,14 +58,14 @@ public class RegistrationPage extends BasePage {
 
     @Step("Open registration page")
     public RegistrationPage openRegistrationPage() {
-        LOGGER.debug(String.format("Attempt to open URL: %s", String.format(Urls.URL_BACK_OFFICE_MAIN, Urls.URL_BACK_OFFICE_REGISTER)));
-        driver.get(String.format(Urls.URL_BACK_OFFICE_MAIN, Urls.URL_BACK_OFFICE_REGISTER));
+        LOGGER.debug(String.format("Attempt to open URL: %s", String.format(Urls.URL_TWNSND_OPEN, Urls.URL_BACK_OFFICE_REGISTER)));
+        driver.get(String.format(Urls.URL_TWNSND_OPEN, Urls.URL_BACK_OFFICE_REGISTER));
         return this;
     }
 
     @Step("Refresh registration page")
     public RegistrationPage refreshRegistrationPage() {
-        LOGGER.debug(String.format("Attempt to open URL: %s", String.format(Urls.URL_BACK_OFFICE_MAIN, Urls.URL_BACK_OFFICE_REGISTER)));
+        LOGGER.debug(String.format("Attempt to open URL: %s", String.format(Urls.URL_TWNSND_OPEN, Urls.URL_BACK_OFFICE_REGISTER)));
         driver.navigate().refresh();
         return this;
     }

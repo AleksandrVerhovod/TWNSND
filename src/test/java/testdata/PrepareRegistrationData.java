@@ -19,7 +19,6 @@ public class PrepareRegistrationData {
                 .password(password)
                 .confirmPassword(password)
                 .fullName(GenerateTestData.generateFullName())
-                .superCode(Credentials.SUPER_CODE)
                 .build();
     }
 
@@ -33,7 +32,6 @@ public class PrepareRegistrationData {
                 .password(password)
                 .confirmPassword(password)
                 .fullName(GenerateTestData.generateFullName())
-                .superCode(Credentials.SUPER_CODE)
                 .build();
     }
 
@@ -46,7 +44,6 @@ public class PrepareRegistrationData {
                 .password(password)
                 .confirmPassword(password)
                 .fullName(GenerateTestData.generateFullName())
-                .superCode(Credentials.SUPER_CODE)
                 .build();
     }
 
@@ -58,7 +55,6 @@ public class PrepareRegistrationData {
                 .password(password)
                 .confirmPassword(password)
                 .fullName(GenerateTestData.generateFullName())
-                .superCode(Credentials.SUPER_CODE)
                 .build();
     }
 
@@ -71,7 +67,6 @@ public class PrepareRegistrationData {
                 .password(password)
                 .confirmPassword(password)
                 .fullName(fullName)
-                .superCode(Credentials.SUPER_CODE)
                 .build();
     }
 
@@ -80,10 +75,9 @@ public class PrepareRegistrationData {
         return RegistrationModel
                 .builder()
                 .email(GenerateTestData.generateEmail())
-                .password(Credentials.VALID_PASSWORD)
+//                .password(Credentials.VALID_PASSWORD)
                 .confirmPassword(confirmPassword)
                 .fullName(GenerateTestData.generateFullName())
-                .superCode(Credentials.SUPER_CODE)
                 .build();
     }
 

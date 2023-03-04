@@ -1,7 +1,6 @@
 package testdata.dataprovider;
 
 import constants.Credentials;
-import io.qameta.allure.Step;
 import org.testng.annotations.DataProvider;
 import utils.GenerateEmail;
 import utils.GenerateFullName;
@@ -97,16 +96,5 @@ public class DataProviderRegistrationClass {
                 {"DROP TABLE user;"},
         };
     }
-
-
-    @DataProvider(name = "notValidSuperCodeProvider")
-    public static Object[][] notValidSuperCodeDataProvider() {
-        return new Object[][]{
-                {Credentials.NOT_VALID_SUPER_CODE},
-                {Credentials.NOT_VALID_2digits_SUPER_CODE},
-                {Credentials.NOT_VALID_4digits_SUPER_CODE},
-                {""},
-                {"   "},
-        };
-    }
 }
+

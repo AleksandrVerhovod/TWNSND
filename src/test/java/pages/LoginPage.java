@@ -45,8 +45,8 @@ public class LoginPage extends BasePage {
 
     @Step("Open login page")
     public LoginPage openLoginPage() {
-        LOGGER.debug(String.format("Attempt to open URL: %s", String.format(Urls.URL_BACK_OFFICE_MAIN, Urls.URL_BACK_OFFICE_LOGIN)));
-        driver.get(String.format(Urls.URL_BACK_OFFICE_MAIN, Urls.URL_BACK_OFFICE_LOGIN));
+        LOGGER.debug(String.format("Attempt to open URL: %s", String.format(Urls.URL_TWNSND_OPEN, Urls.URL_BACK_OFFICE_LOGIN)));
+        driver.get(String.format(Urls.URL_TWNSND_OPEN, Urls.URL_BACK_OFFICE_LOGIN));
         return this;
     }
 
