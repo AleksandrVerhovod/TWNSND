@@ -1,0 +1,207 @@
+[
+  {
+    "_id": "635b4fb334ede5c3169a6d1f",
+    "name": "meat",
+    "price": 190,
+    "quantity": 35.4,
+    "category": [
+      "food"
+    ],
+    "vendor": "000",
+    "art": "000001",
+    "owner": "denis@mail.ru",
+    "createdAt": "2022-10-28T03:42:43.412Z",
+    "updatedAt": "2022-12-08T21:18:08.420Z",
+    "discountPrice": 171,
+    "status": "present",
+    "unit": "kg"
+  },
+  {
+    "_id": "635b6ba001147105ac59af5a",
+    "name": "mounting byke",
+    "price": 12000,
+    "quantity": 2,
+    "category": [
+      "sport",
+      "transport"
+    ],
+    "vendor": "000",
+    "art": "000004",
+    "owner": "nt@ukr.net",
+    "createdAt": "2022-10-28T05:41:52.894Z",
+    "updatedAt": "2022-11-19T21:29:29.634Z",
+    "discountPrice": 9600,
+    "status": "present"
+  },
+  {
+    "_id": "635b6d2801147105ac59af74",
+    "name": "ball",
+    "price": 850,
+    "quantity": 5,
+    "category": [
+      "sport",
+      "toys"
+    ],
+    "vendor": "000",
+    "art": "000007",
+    "owner": "nt@ukr.net",
+    "createdAt": "2022-10-28T05:48:24.899Z",
+    "updatedAt": "2022-11-19T21:30:12.833Z",
+    "discountPrice": 680,
+    "status": "present"
+  },
+  {
+    "_id": "637c946b89571cb9c08b6665",
+    "name": "Shaunte",
+    "price": 5,
+    "quantity": 437,
+    "unit": "pcs",
+    "category": [
+      "Magneton"
+    ],
+    "discountPrice": 4,
+    "status": "present",
+    "vendor": "000",
+    "art": "000097",
+    "owner": "AQATest@mail.com",
+    "createdAt": "2022-11-22T09:20:43.978Z",
+    "updatedAt": "2022-11-22T09:20:48.194Z"
+  },
+  {
+    "_id": "637c976389571cb9c08b66b0",
+    "name": "Armand",
+    "price": 5,
+    "quantity": 901,
+    "unit": "pcs",
+    "category": [
+      "Bellsprout"
+    ],
+    "discountPrice": 57,
+    "status": "present",
+    "vendor": "000",
+    "art": "000098",
+    "owner": "AQATest@mail.com",
+    "createdAt": "2022-11-22T09:33:23.658Z",
+    "updatedAt": "2022-11-22T09:33:27.552Z"
+  },
+  {
+    "_id": "637c980589571cb9c08b66fc",
+    "name": "Candace",
+    "price": 5,
+    "quantity": 913,
+    "unit": "pcs",
+    "category": [
+      "Psyduck"
+    ],
+    "discountPrice": 40,
+    "status": "present",
+    "vendor": "000",
+    "art": "000099",
+    "owner": "AQATest@mail.com",
+    "createdAt": "2022-11-22T09:36:05.632Z",
+    "updatedAt": "2022-11-22T09:36:09.621Z"
+  },
+  {
+    "_id": "637c9a5189571cb9c08b6742",
+    "name": "Tiffany",
+    "price": 1,
+    "quantity": 602,
+    "unit": "pcs",
+    "category": [
+      "Tangela"
+    ],
+    "discountPrice": 43,
+    "status": "present",
+    "vendor": "000",
+    "art": "000100",
+    "owner": "AQATest@mail.com",
+    "createdAt": "2022-11-22T09:45:53.193Z",
+    "updatedAt": "2022-11-22T09:45:57.476Z"
+  },
+  {
+    "_id": "637ca10a89571cb9c08b6815",
+    "name": "Sal",
+    "price": 7,
+    "quantity": 828,
+    "unit": "pcs",
+    "category": [
+      "Venomoth"
+    ],
+    "discountPrice": 65,
+    "status": "present",
+    "vendor": "000",
+    "art": "000101",
+    "owner": "AQATest@mail.com",
+    "createdAt": "2022-11-22T10:14:34.698Z",
+    "updatedAt": "2022-11-22T10:14:39.366Z"
+  },
+  {
+    "_id": "639104abe852761e19785a22",
+    "name": "jem",
+    "price": 20,
+    "quantity": 200,
+    "unit": "kg",
+    "category": [
+      "food"
+    ],
+    "discountPrice": 2,
+    "status": "present",
+    "vendor": "032",
+    "art": "000122",
+    "owner": "denis@mail.ru",
+    "createdAt": "2022-12-07T21:24:59.327Z",
+    "updatedAt": "2022-12-08T21:15:23.563Z"
+  },
+  {
+    "_id": "6392509032dad94010247c7e",
+    "name": "Coca-cola Zero",
+    "price": 250,
+    "quantity": 200,
+    "unit": "kg",
+    "category": [
+      "food",
+      "undefinedsport"
+    ],
+    "discountPrice": 20,
+    "status": "present",
+    "vendor": "029",
+    "art": "000126",
+    "owner": "denis@mail.ru",
+    "createdAt": "2022-12-08T21:01:04.379Z",
+    "updatedAt": "2022-12-08T21:12:05.636Z"
+  },
+  {
+    "_id": "639259d332dad94010247d34",
+    "name": "car",
+    "price": 12999,
+    "quantity": 2,
+    "unit": "pcs",
+    "category": [
+      "electronics"
+    ],
+    "discountPrice": 12999,
+    "status": "present",
+    "vendor": "003",
+    "art": "000127",
+    "owner": "denis@mail.ru",
+    "createdAt": "2022-12-08T21:40:35.620Z",
+    "updatedAt": "2022-12-08T21:49:28.928Z"
+  },
+  {
+    "_id": "6396df18746b3cad11b1b4be",
+    "name": "Kazuko",
+    "price": 7,
+    "quantity": 792,
+    "unit": "pcs",
+    "category": [
+      "Doduo"
+    ],
+    "discountPrice": 14,
+    "status": "present",
+    "vendor": "000",
+    "art": "000128",
+    "owner": "AQATest@mail.com",
+    "createdAt": "2022-12-12T07:58:16.600Z",
+    "updatedAt": "2022-12-12T07:58:20.742Z"
+  }
+]

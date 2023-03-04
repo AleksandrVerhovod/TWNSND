@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "6344342f6bc54ceddebebcc1",
+    "name": "sander",
+    "email": "nt@ukr.net",
+    "createdAt": "2022-10-10T15:03:11.033Z",
+    "updatedAt": "2022-12-12T07:54:50.639Z",
+    "role": "superadmin"
+  },
+  {
+    "_id": "6356a5ca8374d5e8a020d965",
+    "name": "AQATest",
+    "email": "AQATest@mail.com",
+    "role": "admin",
+    "createdAt": "2022-10-24T14:48:42.677Z",
+    "updatedAt": "2022-12-12T07:58:16.029Z"
+  },
+  {
+    "_id": "638c9da8e4abe75cd5891323",
+    "name": "Valera",
+    "email": "test1@mail.ru",
+    "role": "admin",
+    "createdAt": "2022-12-04T13:16:24.285Z",
+    "updatedAt": "2022-12-06T20:10:48.965Z"
+  },
+  {
+    "_id": "6393732cb37bd68a7887c896",
+    "name": "Zagrosh Denis",
+    "email": "den.zagrosh@gmail.ru",
+    "verificationToken": "",
+    "role": "admin",
+    "createdAt": "2022-12-09T17:41:00.446Z",
+    "updatedAt": "2022-12-09T23:58:03.704Z"
+  },
+  {
+    "_id": "6393734eb37bd68a7887c8a4",
+    "name": "Zagrosh Denis",
+    "email": "den.zagrosh@gmail.com",
+    "role": "admin",
+    "createdAt": "2022-12-09T17:41:34.850Z",
+    "updatedAt": "2022-12-11T15:56:33.171Z"
+  },
+  {
+    "_id": "6396df15746b3cad11b1b4b5",
+    "name": "Melvin",
+    "email": "uxjhaocn@test.ru",
+    "role": "admin",
+    "createdAt": "2022-12-12T07:58:13.730Z",
+    "updatedAt": "2022-12-12T07:58:13.761Z"
+  }
+]

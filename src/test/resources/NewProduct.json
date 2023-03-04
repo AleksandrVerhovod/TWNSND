@@ -1,0 +1,17 @@
+{
+  "name": "Carita",
+  "price": 0,
+  "quantity": 0,
+  "unit": "pcs",
+  "category": [
+    "unSorted"
+  ],
+  "discountPrice": 0,
+  "status": "present",
+  "vendor": "000",
+  "art": "000128",
+  "owner": "AQATest@mail.com",
+  "_id": "6396df18746b3cad11b1b4be",
+  "createdAt": "2022-12-12T07:58:16.600Z",
+  "updatedAt": "2022-12-12T07:58:16.600Z"
+}
