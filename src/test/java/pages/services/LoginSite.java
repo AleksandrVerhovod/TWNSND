@@ -29,8 +29,8 @@ public class LoginSite {
         LoginModel loginModel = PrepareLoginData.getValidLogin();
         LOGGER.info(String.format("Prepared valid data by %s", PrepareLoginData.class.getName()));
         loginPage.openLoginPage()
-                .fillLoginForm(loginModel)
-                .clickSignUpButton();
+                .fillLoginForm(loginModel);
+
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class, 'Header_userInfo')]//label")));
     }

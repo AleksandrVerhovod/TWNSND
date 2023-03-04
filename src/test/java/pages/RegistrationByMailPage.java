@@ -29,7 +29,7 @@ public class RegistrationByMailPage extends BasePage {
     private WebElement LASTNAME_FIELD;
 
     @FindBy(xpath = "//button[text()='Создать аккаунт']")
-    private WebElement SIGNUP_BUTTON;
+    private WebElement CREATE_ACCOUNT_BUTTON;
 
     @FindBy(xpath = "//*[@id=\"root\"]/div[1]/div/div[3]/div/div/div[2]/div[2]/text()")
     private WebElement ERROR_EMAIL_MESSAGE;
@@ -53,8 +53,8 @@ public class RegistrationByMailPage extends BasePage {
 
     @Override
     public boolean isPageOpened() {
-        LOGGER.debug(String.format("Attempt to find button: %s", SIGNUP_BUTTON));
-        return SIGNUP_BUTTON.isDisplayed();
+        LOGGER.debug(String.format("Attempt to find button: %s", CREATE_ACCOUNT_BUTTON));
+        return CREATE_ACCOUNT_BUTTON.isDisplayed();
     }
 
 
@@ -80,6 +80,12 @@ public class RegistrationByMailPage extends BasePage {
         return this;
     }
 
+    @Step("Click button Create account")
+    public ConfirmRegistrationPage clickButtonCreateAccount() {
+        LOGGER.debug(String.format("Attempt to click button: %s", CREATE_ACCOUNT_BUTTON));
+        CREATE_ACCOUNT_BUTTON.click();
+        return new ConfirmRegistrationPage(driver);
+    }
     @Step("Search error message about Email")
     public boolean isErrorEmailMessageIsDisplayed() {
         LOGGER.debug(String.format("Attempt to find message by locator: %s", ERROR_EMAIL_MESSAGE));
