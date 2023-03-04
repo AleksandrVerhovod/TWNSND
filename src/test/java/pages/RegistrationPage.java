@@ -2,7 +2,6 @@ package pages;
 
 import constants.Urls;
 import io.qameta.allure.Step;
-import models.RegistrationModel;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -13,17 +12,17 @@ public class RegistrationPage extends BasePage {
 
     private static final Logger LOGGER = LogManager.getLogger(RegistrationPage.class.getName());
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//div")
     private WebElement LOGO_REG_PAGE;
 
-    @FindBy(xpath = "")
-    private WebElement REG_BY_GOOGLE;
-
-    @FindBy(xpath = "")
-    private WebElement REG_BY_FACEBOOK;
-
-    @FindBy(xpath = "")
-    private WebElement REG_BY_VK;
+//    @FindBy(xpath = "")
+//    private WebElement REG_BY_GOOGLE;
+//
+//    @FindBy(xpath = "")
+//    private WebElement REG_BY_FACEBOOK;
+//
+//    @FindBy(xpath = "")
+//    private WebElement REG_BY_VK;
 
     @FindBy(xpath = "//*[@id=\"root\"]/div[1]/div/div[3]/div/a[4]/button")
     private WebElement REG_BY_MAIL;

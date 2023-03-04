@@ -30,7 +30,7 @@ public class GenerateTestData {
         return faker.name().firstName();
     }
 
-    public static String generateFullName() {
+    public static String generateLastName() {
         faker = new Faker();
         return faker.name().lastName();
     }

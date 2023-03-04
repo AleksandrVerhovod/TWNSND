@@ -80,12 +80,6 @@ public class RegistrationByMailPage extends BasePage {
         return this;
     }
 
-    @Step("Click button 'Sign Up'")
-    public SignInPage clickSignUpButton() {
-        LOGGER.debug(String.format("Attempt to click button by locator: %s", SIGNUP_BUTTON));
-        SIGNUP_BUTTON.click();
-        return new SignInPage(driver);
-    }
     @Step("Search error message about Email")
     public boolean isErrorEmailMessageIsDisplayed() {
         LOGGER.debug(String.format("Attempt to find message by locator: %s", ERROR_EMAIL_MESSAGE));

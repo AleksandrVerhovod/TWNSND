@@ -9,6 +9,6 @@ public class RegistrationModel {
     private String email;
     private String password;
     private String confirmPassword;
-    private String fullName;
-    private String superCode;
+    private String name;
+    private String lastName;
 }

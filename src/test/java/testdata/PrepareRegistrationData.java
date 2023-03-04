@@ -1,6 +1,5 @@
 package testdata;
 
-import constants.Credentials;
 import models.RegistrationModel;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -12,13 +11,14 @@ public class PrepareRegistrationData {
     private static final Logger LOGGER = LogManager.getLogger(PrepareRegistrationData.class.getName());
 
     public static RegistrationModel fillRegistrationModel(String email, String password) {
-        LOGGER.info(String.format("Generate registration with data: %s", email,password));
+        LOGGER.info(String.format("Generate registration with data: %s%s", email,password));
         return RegistrationModel
                 .builder()
                 .email(email)
                 .password(password)
                 .confirmPassword(password)
-                .fullName(GenerateTestData.generateFullName())
+                .name(GenerateTestData.generateName())
+                .lastName(GenerateTestData.generateLastName())
                 .build();
     }
 
@@ -31,7 +31,8 @@ public class PrepareRegistrationData {
                 .email(email)
                 .password(password)
                 .confirmPassword(password)
-                .fullName(GenerateTestData.generateFullName())
+                .name(GenerateTestData.generateName())
+                .lastName(GenerateTestData.generateLastName())
                 .build();
     }
 
@@ -43,7 +44,8 @@ public class PrepareRegistrationData {
                 .email(email)
                 .password(password)
                 .confirmPassword(password)
-                .fullName(GenerateTestData.generateFullName())
+                .name(GenerateTestData.generateName())
+                .lastName(GenerateTestData.generateLastName())
                 .build();
     }
 
@@ -54,7 +56,8 @@ public class PrepareRegistrationData {
                 .email(GenerateEmail.generateEmail())
                 .password(password)
                 .confirmPassword(password)
-                .fullName(GenerateTestData.generateFullName())
+                .name(GenerateTestData.generateName())
+                .lastName(GenerateTestData.generateLastName())
                 .build();
     }
 
@@ -66,7 +69,8 @@ public class PrepareRegistrationData {
                 .email(GenerateTestData.generateEmail())
                 .password(password)
                 .confirmPassword(password)
-                .fullName(fullName)
+                .name(GenerateTestData.generateName())
+                .lastName(GenerateTestData.generateLastName())
                 .build();
     }
 
@@ -77,7 +81,8 @@ public class PrepareRegistrationData {
                 .email(GenerateTestData.generateEmail())
 //                .password(Credentials.VALID_PASSWORD)
                 .confirmPassword(confirmPassword)
-                .fullName(GenerateTestData.generateFullName())
+                .name(GenerateTestData.generateName())
+                .lastName(GenerateTestData.generateLastName())
                 .build();
     }
 
@@ -89,8 +94,8 @@ public class PrepareRegistrationData {
                 .email(GenerateTestData.generateEmail())
                 .password(password)
                 .confirmPassword(password)
-                .fullName(GenerateTestData.generateFullName())
-                .superCode(superCode)
+                .name(GenerateTestData.generateName())
+                .lastName(GenerateTestData.generateLastName())
                 .build();
     }
 }

@@ -5,7 +5,6 @@ import io.qameta.allure.Step;
 import org.testng.Assert;
 import pages.ConfirmRegistrationPage;
 import pages.RegistrationPage;
-import pages.SignInPage;
 import testdata.dataprovider.DataProviderRegistrationClass;
 import jdk.jfr.Description;
 import models.RegistrationModel;
