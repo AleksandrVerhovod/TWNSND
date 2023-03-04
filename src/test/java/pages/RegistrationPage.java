@@ -86,10 +86,10 @@ public class RegistrationPage extends BasePage {
     }
 
     @Step("Click button 'Sign Up'")
-    public InformationBoardPage clickSignUpButton() {
+    public SignInPage clickSignUpButton() {
         LOGGER.debug(String.format("Attempt to click button by locator: %s", SIGNUP_BUTTON));
         SIGNUP_BUTTON.click();
-        return new InformationBoardPage(driver);
+        return new SignInPage(driver);
     }
     @Step("Search error message about Email")
     public boolean isErrorEmailMessageIsDisplayed() {

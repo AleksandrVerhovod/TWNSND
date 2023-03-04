@@ -8,7 +8,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.InformationBoardPage;
+import pages.SignInPage;
 import pages.LoginPage;
 import testdata.PrepareLoginData;
 import testdata.dataprovider.DataProviderLoginClass;
@@ -29,8 +29,8 @@ public class LoginTest extends BaseTest {
         loginPage.openLoginPage()
                 .fillLoginForm(loginModel)
                 .clickSignUpButton();
-        InformationBoardPage informationBoardPage = new InformationBoardPage(getDriver());
-        LOGGER.info(String.format("Initialization %s page", InformationBoardPage.class.getName()));
+        SignInPage informationBoardPage = new SignInPage(getDriver());
+        LOGGER.info(String.format("Initialization %s page", SignInPage.class.getName()));
         LOGGER.info("Check if account is created");
         Assert.assertTrue(informationBoardPage.isPageOpened(), "User not log in");
     }

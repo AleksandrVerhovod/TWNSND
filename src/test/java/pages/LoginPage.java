@@ -62,10 +62,10 @@ public class LoginPage extends BasePage {
     }
 
     @Step("Click button 'Sign Up'")
-    public InformationBoardPage clickSignUpButton() {
+    public SignInPage clickSignUpButton() {
         LOGGER.debug(String.format("Attempt to click button by locator: %s", BUTTON_LOGIN));
         BUTTON_LOGIN.click();
-        return new InformationBoardPage(driver);
+        return new SignInPage(driver);
     }
 
     @Step("Check if Error message is displayed")
