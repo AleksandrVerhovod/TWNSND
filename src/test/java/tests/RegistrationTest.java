@@ -3,7 +3,7 @@ package tests;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Step;
 import org.testng.Assert;
-import pages.InformationBoardPage;
+import pages.SignInPage;
 import testdata.dataprovider.DataProviderRegistrationClass;
 import jdk.jfr.Description;
 import models.RegistrationModel;
@@ -30,8 +30,8 @@ public class RegistrationTest extends BaseTest {
         registrationPage.openRegistrationPage()
                 .fillRegistrationsFields(registrationModel)
                 .clickSignUpButton();
-        InformationBoardPage informationBoardPage = new InformationBoardPage(getDriver());
-        LOGGER.info(String.format("Initialization %s page", InformationBoardPage.class.getName()));
+        SignInPage informationBoardPage = new SignInPage(getDriver());
+        LOGGER.info(String.format("Initialization %s page", SignInPage.class.getName()));
         LOGGER.info("Check if account is created");
         Assert.assertTrue(informationBoardPage.isPageOpened(), "User not created");
     }
@@ -48,8 +48,8 @@ public class RegistrationTest extends BaseTest {
         registrationPage.openRegistrationPage()
                 .fillRegistrationsFields(registrationModel)
                 .clickSignUpButton();
-        InformationBoardPage informationBoardPage = new InformationBoardPage(getDriver());
-        LOGGER.info(String.format("Open %s page", InformationBoardPage.class.getName()));
+        SignInPage informationBoardPage = new SignInPage(getDriver());
+        LOGGER.info(String.format("Open %s page", SignInPage.class.getName()));
         LOGGER.info("Check if account is created");
         Assert.assertTrue(informationBoardPage.isPageOpened(), "User not created");
     }
