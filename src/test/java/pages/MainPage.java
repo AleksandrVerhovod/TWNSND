@@ -32,8 +32,8 @@ public class MainPage extends BasePage {
     }
     @Step("Open login page")
     public MainPage openMainPage() {
-        LOGGER.debug(String.format("Attempt to open URL: %s", Urls.URL_TWNSND_OPEN));
-        driver.get(Urls.URL_TWNSND_OPEN);
+        LOGGER.debug(String.format("Attempt to open URL: %s", Urls.URL_TWNSND_MAIN));
+        driver.get(Urls.URL_TWNSND_MAIN);
         return this;
     }
     public LoginPage clickLoginLink() {
